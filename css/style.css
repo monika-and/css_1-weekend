@@ -21,3 +21,14 @@ p {
 a, span, div {
     color: green;
 }
+
+/* selektor bezpośredniego elementu potomnego */
+li > a {
+    color: yellow;
+}
+
+/* selektor elementów potomnych */
+
+div a {
+    color: blueviolet
+}
