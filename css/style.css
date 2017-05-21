@@ -1,14 +1,23 @@
 /* selektor znacznika */
+
 p {
     color: orange;
 }
 
 /* selektor id */
+
 #paragraph {
     color: blue;
 }
 
 /* selektor klasy */
+
 .klasa {
     color: red
+}
+
+/* Łączenie selektorów */
+
+a, span, div {
+    color: green;
 }
