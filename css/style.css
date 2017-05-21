@@ -30,5 +30,10 @@ li > a {
 /* selektor elementów potomnych */
 
 div a {
-    color: blueviolet
+    color: blueviolet;
+}
+
+/* selektor bliskiego  rodzeństwa */
+h2 + h3 {
+    color: cadetblue
 }
