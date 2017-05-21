@@ -42,3 +42,8 @@ h2 + h3 {
 h4 ~ p {
     color: chocolate;
 }
+
+/* selektor wykluczający */
+ul > li:not(.last) {
+    color: aqua;
+}
