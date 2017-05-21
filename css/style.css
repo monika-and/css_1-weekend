@@ -47,3 +47,8 @@ h4 ~ p {
 ul > li:not(.last) {
     color: aqua;
 }
+
+/* selektor kolejnego elementu potomnego */
+ul > ol:nth-child(2n+0) {
+    color: deeppink;
+}
