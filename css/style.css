@@ -35,5 +35,10 @@ div a {
 
 /* selektor bliskiego  rodzeństwa */
 h2 + h3 {
-    color: cadetblue
+    color: cadetblue;
+}
+
+/* selektor rodzeństwa */
+h4 ~ p {
+    color: chocolate;
 }
